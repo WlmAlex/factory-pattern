@@ -8,6 +8,7 @@ public class FactoryTest {
     public static void main(String[] args) {
         DefaultFactory defaultFactory = new DefaultFactory();
         Car audi = defaultFactory.getCar("audi");
+        audi.printCarInfo();
         System.out.println(audi);
     }
 }
