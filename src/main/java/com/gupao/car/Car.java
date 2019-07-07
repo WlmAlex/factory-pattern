@@ -2,5 +2,6 @@ package com.gupao.car;
 
 public interface Car {
 
-    Car getCar();
+    // you can define some common methods here
+    void printCarInfo();
 }
